@@ -203,6 +203,13 @@
 								Still, Silverport has excellent reputation all across the Orion Spur."
 
 
+/obj/item/reagent_containers/food/drinks/bottle/gin
+	name = "Borovicka gin"
+	desc = "A bottle of good quality gin."
+	icon_state = "ginbottle"
+	center_of_mass = list("x"=16, "y"=4)
+	reagents_to_add = list(/decl/reagent/alcohol/gin = 100)
+
 /obj/item/reagent_containers/food/drinks/bottle/victorygin
 	name = "Victory gin"
 	desc = "Pour one out for Al'mari. His gun was on stun, bless his heart."
@@ -713,3 +720,9 @@
 	center_of_mass = list("x"=16, "y"=6)
 	reagents_to_add = list(/decl/reagent/alcohol/boukha = 100)
 
+/obj/item/reagent_containers/food/drinks/bottle/whitewine
+	name = "Pineneedle Brand white wine"
+	desc = "A mediocre quality white wine, intended more making spritzers than for drinking by itself."
+	icon_state = "whitewinebottle"
+	center_of_mass = list("x"=16, "y"=4)
+	reagents_to_add = list(/decl/reagent/alcohol/whitewine = 100)

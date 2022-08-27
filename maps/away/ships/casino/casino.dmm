@@ -3456,6 +3456,7 @@
 /turf/simulated/floor/tiled,
 /area/casino/casino_kitchen)
 "jR" = (
+/obj/item/reagent_containers/food/drinks/bottle/gin,
 /obj/item/reagent_containers/food/drinks/bottle/vodka{
 	pixel_x = 10
 	},
