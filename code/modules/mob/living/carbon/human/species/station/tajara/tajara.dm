@@ -91,8 +91,7 @@
 	default_h_style = "Tajaran Ears"
 
 	possible_cultures = list(
-		/decl/origin_item/culture/adhomian,
-		/decl/origin_item/culture/offworld_tajara
+		/decl/origin_item/culture/generica
 	)
 
 	inherent_verbs = list(

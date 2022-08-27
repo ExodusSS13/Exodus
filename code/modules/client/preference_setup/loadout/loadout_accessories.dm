@@ -351,7 +351,6 @@
 	description = "A selection of cadre brassards from Gadpathur."
 	path = /obj/item/clothing/accessory/armband/gadpathur
 	flags = GEAR_HAS_DESC_SELECTION
-	origin_restriction = list(/decl/origin_item/origin/gadpathur)
 
 /datum/gear/accessory/gadpathur/New()
 	..()
@@ -366,14 +365,12 @@
 	description = "A small metal badge worn by Gadpathurian Section Leaders."
 	path = /obj/item/clothing/accessory/gadpathurian_leader
 	flags = GEAR_HAS_DESC_SELECTION
-	origin_restriction = list(/decl/origin_item/origin/gadpathur)
 
 /datum/gear/accessory/gadpathur_dogtags
 	display_name = "gadpathurian dogtags"
 	description = "Dogtags issued to Gadpathurians."
 	path = /obj/item/clothing/accessory/dogtags/gadpathur
 	flags = GEAR_HAS_DESC_SELECTION
-	origin_restriction = list(/decl/origin_item/origin/gadpathur)
 
 /datum/gear/accessory/sash_coloured
 	display_name = "sash (colourable)"
@@ -431,7 +428,6 @@
 	passcard["passcard, gadpathur"] = /obj/item/clothing/accessory/badge/passcard/gad
 	passcard["passcard, assunzione"] = /obj/item/clothing/accessory/badge/passcard/assu
 	passcard["passcard, konyang"] = /obj/item/clothing/accessory/badge/passcard/konyang
-	passcard["passcard, visegrad"] = /obj/item/clothing/accessory/badge/passcard/sol/visegrad
 	gear_tweaks += new /datum/gear_tweak/path(passcard)
 
 /datum/gear/accessory/workvisa
@@ -528,7 +524,6 @@
 	flagpatch_national["flagpatch, europa"] = /obj/item/clothing/accessory/flagpatch/europa
 	flagpatch_national["flagpatch, new hai phong"] = /obj/item/clothing/accessory/flagpatch/newhaiphong
 	flagpatch_national["flagpatch, pluto"] = /obj/item/clothing/accessory/flagpatch/pluto
-	flagpatch_national["flagpatch, visegrad"] = /obj/item/clothing/accessory/flagpatch/visegrad
 	flagpatch_national["flagpatch, silversun"] = /obj/item/clothing/accessory/flagpatch/silversun
 	flagpatch_national["flagpatch, callisto"] = /obj/item/clothing/accessory/flagpatch/callisto
 	flagpatch_national["flagpatch, konyang"] = /obj/item/clothing/accessory/flagpatch/konyang

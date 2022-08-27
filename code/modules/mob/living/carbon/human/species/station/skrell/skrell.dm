@@ -87,10 +87,9 @@
 	default_h_style = "Headtails"
 
 	possible_cultures = list(
-		/decl/origin_item/culture/federation,
-		/decl/origin_item/culture/non_federation
+		/decl/origin_item/culture/generica
 	)
-	
+
 	inherent_verbs = list(
 		/mob/living/carbon/human/proc/adjust_headtails
 	)

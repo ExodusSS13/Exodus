@@ -37,8 +37,7 @@
 	hydration_loss_factor = 0.7
 
 	possible_cultures = list(
-		/decl/origin_item/culture/adhomian/zhan,
-		/decl/origin_item/culture/offworld_tajara/zhan
+		/decl/origin_item/culture/generica
 	)
 
 /datum/species/tajaran/m_sai
@@ -77,6 +76,5 @@
 	hydration_loss_factor = 0.9
 
 	possible_cultures = list(
-		/decl/origin_item/culture/adhomian/msai,
-		/decl/origin_item/culture/offworld_tajara/msai
+		/decl/origin_item/culture/generica
 	)

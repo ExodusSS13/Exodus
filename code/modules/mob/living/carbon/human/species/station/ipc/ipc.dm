@@ -122,14 +122,7 @@
 	bodyfall_sound = /decl/sound_category/bodyfall_machine_sound
 
 	possible_cultures = list(
-		/decl/origin_item/culture/ipc_sol,
-		/decl/origin_item/culture/ipc_elyra,
-		/decl/origin_item/culture/ipc_coalition,
-		/decl/origin_item/culture/ipc_tau_ceti,
-		/decl/origin_item/culture/golden_deep,
-		/decl/origin_item/culture/megacorporate,
-		/decl/origin_item/culture/scrapper,
-		/decl/origin_item/culture/orepit_trinary
+		/decl/origin_item/culture/generica
 	)
 
 	alterable_internal_organs = list()

@@ -123,10 +123,7 @@
 	move_trail = /obj/effect/decal/cleanable/blood/tracks/claw
 
 	possible_cultures = list(
-		/decl/origin_item/culture/izweski,
-		/decl/origin_item/culture/traditionalists,
-		/decl/origin_item/culture/spaceborn,
-		/decl/origin_item/culture/dominian_unathi
+		/decl/origin_item/culture/generica
 	)
 
 	zombie_type = SPECIES_ZOMBIE_UNATHI

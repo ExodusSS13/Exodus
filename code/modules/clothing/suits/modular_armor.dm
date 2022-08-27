@@ -383,12 +383,6 @@
 	icon_state = "flagpatch_pluto"
 	item_state = "flagpatch_pluto"
 
-/obj/item/clothing/accessory/flagpatch/visegrad
-	name = "visegrad flagpatch"
-	desc = "A flagpatch representing Visegrad. You swear you saw this in a trial on the main Solarian news network once."
-	icon_state = "flagpatch_visegrad"
-	item_state = "flagpatch_visegrad"
-
 /obj/item/clothing/accessory/flagpatch/silversun
 	name = "silversun flagpatch"
 	desc = "A flagpatch representing Silversun. As Silversun Expatriates are often more loyal to Idris, most wearers of these patches are Originals."
