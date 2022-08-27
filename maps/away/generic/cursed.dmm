@@ -1853,10 +1853,6 @@
 /area/cursed/hangar)
 "luL" = (
 /obj/structure/table/wood/gamblingtable,
-/obj/item/reagent_containers/food/drinks/bottle/whitewine{
-	pixel_y = 14;
-	pixel_x = -5
-	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/wine,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/wine{
 	pixel_x = 8;

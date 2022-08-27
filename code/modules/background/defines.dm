@@ -60,69 +60,9 @@
 #define RELIGION_KSSHR "Ksshr"
 #define RELIGION_SHRKH "Shrkh"
 
-//accent defines
+//accent defines, this is where you put the accent user's demonym
 
 #define ACCENT_CETI "Biesellite"
-#define ACCENT_COC "Frontiersfolk"
-#define ACCENT_ELYRA "Elyran"
-#define ACCENT_ERIDANI "Eridanian"
-#define ACCENT_ERIDANIREINSTATED "Reinstated Dreg"
-#define ACCENT_ERIDANIDREG "Eridanian Dreg"
-#define ACCENT_SOL "Solarian"
-#define ACCENT_SCARAB "Scarab Fleets"
-#define ACCENT_SILVERSUN_ORIGINAL "Silversun Original"
-#define ACCENT_SILVERSUN_EXPATRIATE "Silversun Expatriate"
-#define ACCENT_PHONG "New Hai Phongese"
-#define ACCENT_MARTIAN "Martian"
-#define ACCENT_KONYAN "Konyanger"
-#define ACCENT_LUNA "Lunan"
-#define ACCENT_GIBSON_OVAN "New Gibson Ovanstad"
-#define ACCENT_GIBSON_UNDIR "New Gibson Undirstad"
-#define ACCENT_HIMEO "Himean"
-#define ACCENT_VYSOKA "Vysokan"
-#define ACCENT_VENUS "Venusian Cytherean"
-#define ACCENT_VENUSJIN "Venusian Jintarian"
-#define ACCENT_DOMINIA_HIGH "High Morozi"
-#define ACCENT_DOMINIA_VULGAR "Vulgar Morozi"
-#define ACCENT_JUPITER "Jovian"
-#define ACCENT_CALLISTO "Callistean"
-#define ACCENT_EUROPA "Europan"
-#define ACCENT_EARTH "Earther"
-#define ACCENT_NCF "Non-Coalition Frontier"
-#define ACCENT_FISANDUH "Fisanduhian"
-#define ACCENT_GADPATHUR "Gadpathurian"
-#define ACCENT_PLUTO "Plutonian"
-#define ACCENT_ASSUNZIONE "Assunzionii"
-#define ACCENT_VISEGRAD "Visegradi"
-#define ACCENT_VALKYRIE "Valkyrian"
-#define ACCENT_MICTLAN "Mictlanian"
-#define ACCENT_PERSEPOLIS "Persepolis"
-#define ACCENT_MEDINA "Medina"
-#define ACCENT_AEMAQ "Aemaq"
-#define ACCENT_NEWSUEZ "New Suez"
-#define ACCENT_DAMASCUS "Damascus II"
-#define ACCENT_ANTILLIA "Port Antillia"
-
-#define ACCENT_REPUBICLANSIIK "Republican Siik'maas"
-#define ACCENT_NAZIRASIIK "Nazira Siik'maas"
-#define ACCENT_CREVAN "Crevan Creole"
-#define ACCENT_DASNRRASIIK "Das'nrra Siik'maas"
-#define ACCENT_HIGHHARRSIIK "High-Harr'masir Siik'maas"
-#define ACCENT_LOWHARRSIIK "Lower-Harr'masir Siik'maas"
-#define ACCENT_AMOHDASIIK "Amohdan Siik'maas"
-#define ACCENT_RURALDELVAHHI "Rural Delvahhi"
-#define ACCENT_NOMADDELVAHHI "Nomadic Delvahhi"
-#define ACCENT_OLDYASSA "Old Ya'ssa"
-#define ACCENT_NORTHRASNRR "Northern Ras'nrr Siik'maas"
-#define ACCENT_DINAKK "Din'akk Mountains Siik'maas"
-#define ACCENT_HARRNRRI "Harr'nrri Siik'mas"
-#define ACCENT_ZARRJIRI "Zarr'jiri Siik'mas"
-
-#define ACCENT_HEGEMON_NOBLE "Noble Hegemonic"
-#define ACCENT_HEGEMON_PEASANT "Peasant Hegemonic"
-#define ACCENT_TRAD_NOBLE "Noble Traditional"
-#define ACCENT_TRAD_PEASANT "Peasant Traditional"
-#define ACCENT_WASTELAND "Deep Wastelander"
 
 #define ACCENT_SKRELL "Standard Nral'Malic"
 #define ACCENT_HOMEWORLD "Qerrbalak"
@@ -144,11 +84,6 @@
 
 #define ACCENT_BLUESPACE "Bluespace"
 
-#define ACCENT_ZORA "Zo'rane"
-#define ACCENT_KLAX "K'laxane"
-#define ACCENT_CTHUR "C'thuric"
-#define ACCENT_LIIDRA "Lii'draic"
-
-#define ACCENTS_ALL_IPC_SOL list(ACCENT_SOL, ACCENT_EARTH, ACCENT_SILVERSUN_ORIGINAL, ACCENT_SILVERSUN_EXPATRIATE, ACCENT_VENUS, ACCENT_VENUSJIN, ACCENT_MARTIAN, ACCENT_JUPITER, ACCENT_CALLISTO, ACCENT_EUROPA, ACCENT_PHONG, ACCENT_ERIDANI, ACCENT_PLUTO, ACCENT_MICTLAN, ACCENT_KONYAN, ACCENT_LUNA, ACCENT_TTS)
-#define ACCENTS_ALL_IPC list(ACCENT_CETI, ACCENT_TTS, ACCENT_COC, ACCENT_ELYRA, ACCENT_ERIDANI, ACCENT_ERIDANIDREG, ACCENT_ERIDANIREINSTATED, ACCENT_SOL, ACCENT_SILVERSUN_EXPATRIATE, ACCENT_SILVERSUN_ORIGINAL, ACCENT_PHONG, ACCENT_MARTIAN, ACCENT_KONYAN, ACCENT_LUNA, ACCENT_GIBSON_OVAN, ACCENT_GIBSON_UNDIR, ACCENT_HIMEO, ACCENT_VYSOKA, ACCENT_VENUS, ACCENT_VENUSJIN, ACCENT_JUPITER, ACCENT_CALLISTO, ACCENT_EUROPA, ACCENT_EARTH, ACCENT_NCF, ACCENT_PLUTO, ACCENT_ASSUNZIONE, ACCENT_VISEGRAD, ACCENT_VALKYRIE, ACCENT_MICTLAN, ACCENT_PERSEPOLIS, ACCENT_MEDINA, ACCENT_NEWSUEZ, ACCENT_AEMAQ, ACCENT_DAMASCUS)
+#define ACCENTS_ALL_IPC_SOL list(ACCENT_TTS)
+#define ACCENTS_ALL_IPC list(ACCENT_CETI, ACCENT_TTS)
 #define RELIGIONS_ALL_IPC list(RELIGION_NONE, RELIGION_CHRISTIANITY, RELIGION_ISLAM, RELIGION_BUDDHISM, RELIGION_HINDU, RELIGION_TAOISM, RELIGION_JUDAISM, RELIGION_OTHER, RELIGION_TRINARY, RELIGION_SCARAB, RELIGION_LUCEISM, RELIGION_SHINTO)

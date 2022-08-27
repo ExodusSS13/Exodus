@@ -203,14 +203,6 @@
 								Still, Silverport has excellent reputation all across the Orion Spur."
 
 
-/obj/item/reagent_containers/food/drinks/bottle/gin
-	name = "Borovicka gin"
-	desc = "A bottle of good quality gin. Previously a mainstay in bars throughout the spur, it has become scarcer since \
-			the Solarian collapse, only remaining in stock thanks to Idris ownership of the Visegradi facilities that produce it."
-	icon_state = "ginbottle"
-	center_of_mass = list("x"=16, "y"=4)
-	reagents_to_add = list(/decl/reagent/alcohol/gin = 100)
-
 /obj/item/reagent_containers/food/drinks/bottle/victorygin
 	name = "Victory gin"
 	desc = "Pour one out for Al'mari. His gun was on stun, bless his heart."
@@ -677,7 +669,7 @@
 	center_of_mass = list("x" = 16, "y" = 5)
 	reagents_to_add = list(/decl/reagent/alcohol/pulque = 100)
 
-/obj/item/reagent_containers/food/drinks/bottle/vintage_wine //can't make it a child of wine, or else reagents double-fill 
+/obj/item/reagent_containers/food/drinks/bottle/vintage_wine //can't make it a child of wine, or else reagents double-fill
 	name = "Vintage Wine"
 	desc = "A fine bottle of high-quality wine, produced in a small batch and aged for decades, if not centuries. It's likely that few bottles like it remain."
 	icon_state = "vwinebottle"
@@ -721,9 +713,3 @@
 	center_of_mass = list("x"=16, "y"=6)
 	reagents_to_add = list(/decl/reagent/alcohol/boukha = 100)
 
-/obj/item/reagent_containers/food/drinks/bottle/whitewine
-	name = "Pineneedle Brand white wine"
-	desc = "A mediocre quality white wine, intended more making spritzers than for drinking by itself. Produced on Visegrad by Idris."
-	icon_state = "whitewinebottle"
-	center_of_mass = list("x"=16, "y"=4)
-	reagents_to_add = list(/decl/reagent/alcohol/whitewine = 100)
